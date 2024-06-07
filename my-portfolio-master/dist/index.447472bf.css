@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Poppins&display=swap";
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* .index {
+  z-index: 100;
+} */
+.index li {
+  z-index: 101;
+}
+.index {
+  background-color: black;
+  padding: 0 1rem;
+}
+.grey {
+  color: rgb(218, 214, 214);
+}
+.mid-div-elements li {
+  margin: 0;
+  color: rgb(218, 214, 214);
+  background-color: black;
+  border-bottom: 0.5px solid rgb(51, 48, 48);
+  padding: 0.7rem 0.6rem;
+}
+.mid-div ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.mid-div a {
+  color: white;
+  padding: 0 1rem;
+}
+.mid-div-elements a {
+  color: white;
+}
+.brand-name {
+  text-decoration: none;
+  color: white;
+  font-size: max(3vw, 2rem);
+  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
+}
+.socialmedia-icons a {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgb(218, 214, 214);
+  /* margin-top: 1.5rem; */
+}
+.socialmedia-icons div {
+  color: rgb(218, 214, 214);
+  outline: none;
+  background-color: none;
+  outline: none;
+}
+@media (max-width: 992px) {
+  .mid-div {
+    display: none;
+  }
+}
+.navbar-sticky {
+  transition: all 0.5s;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.bg-black {
+  background-color: black;
+}
+.sticky-collapse {
+  position: fixed;
+  top: 63px;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=index.447472bf.css.map */
